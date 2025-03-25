@@ -24,6 +24,6 @@ Provide your first findings and interesting visualizations here.
 
 ...
 
-[Dig into the details →]({{ site.baseurl }}/details/detail2)
+[Dig into the details →]({{ site.baseurl }}/details/detail3)
 
 ---

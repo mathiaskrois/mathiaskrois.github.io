@@ -4,7 +4,7 @@ title: "Detailed Analysis of Section 2"
 permalink: /details/detail1
 ---
 
-# Detailed Analysis: Section 1
+# Detailed Analysis: Section 2
 
 Here's an in-depth exploration of the data introduced on the homepage.
 
