@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Detailed Analysis of Section 1"
-permalink: /details/detail1
+title: "Detailed Analysis of Section 2"
+permalink: /details/detail2
 ---
 
-# Detailed Analysis: Section 1
+# Detailed Analysis: Section 2
 
 Here's an in-depth exploration of the data introduced on the homepage.
 
