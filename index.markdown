@@ -1,9 +1,3 @@
-<div class="cover">
-  <div class="cover-text">
-    Mathias' Data Story
-  </div>
-</div>
-
 ---
 #layout: home
 layout: default
