@@ -8,9 +8,9 @@ title: "My Continuous Data Story"
 
 This is a continuously scrolling story about some intriguing data.
 
-[Read more about Section 1 →]({{ site.baseurl }}/_details/detail1)
+[Read more about Section 1 →]({{ site.baseurl }}/details/detail1)
 
-[Read more about Section 2 →]({{ site.baseurl }}/_details/detail2)
+[Read more about Section 2 →]({{ site.baseurl }}/details/detail2)
 
 ## Section 1: Data Introduction
 
@@ -24,6 +24,6 @@ Provide your first findings and interesting visualizations here.
 
 ...
 
-[Dig into the details →]({{ site.baseurl }}/_details/detail3)
+[Dig into the details →]({{ site.baseurl }}/details/detail3)
 
 ---
