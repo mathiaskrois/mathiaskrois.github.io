@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: "Detailed Analysis of Section 2"
 permalink: /details/detail2
 ---
