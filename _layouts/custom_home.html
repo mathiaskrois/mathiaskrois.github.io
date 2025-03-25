@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The original main.css is being imported by datastory.css,
+       so you only need to link datastory.css here. -->
+  <link rel="stylesheet" href="{{ _layouts/datastory.css' | relative_url }}">
 </head>
 <body>
 
-  <!-- Cover image with overlayed title -->
-  <div class="hero">
-    <div class="hero-text">
-      <h1>{{ site.title }}</h1>
-    </div>
+  <div class="cover" style="background-image: url('/Users/mathiaskroismoller/Git/Social Data Visulisation/mathiaskrois.github.io/images/COVER.webp');">
+    <h1 class="cover-title">{{ page.title }}</h1>
   </div>
 
-  <main class="content">
+  <main class="page-content">
     {{ content }}
   </main>
 

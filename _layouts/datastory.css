@@ -1,0 +1,53 @@
+/* datastory.css */
+
+/* 1) Bring in all baseline styles from the existing main.css */
+@import url('_site/assets/main.css');
+
+/* 2) Override the site-header or navigation so it does not appear. */
+.site-header,
+.site-nav,
+.site-footer {
+  display: none !important;
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* 3) Create a hero/cover section. */
+.cover {
+  position: relative;
+  width: 100%;
+  min-height: 50vh;  /* adjust height to taste (e.g. 70vh, 100vh) */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*
+    Example usage:
+    If you have a background image in your front matter,
+    you can inject it via an inline style, or set it here directly:
+    background-image: url('path/to/your-cover-image.jpg');
+  */
+}
+
+/* 4) Style the text that goes on top of the cover. */
+.cover-title {
+  position: absolute;
+  bottom: 20px; /* or top: 40% — you can tweak so it suits your design */
+  left: 0;
+  width: 100%;
+  color: #fff; /* White text over a photo */
+  font-size: 3rem; /* Larger text for the title */
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+  /* Add padding or margin as needed */
+}
+
+/* 5) Adjust page content spacing since the nav is removed. */
+.page-content {
+  padding-top: 30px;  /* previously might have been overshadowed by header */
+  padding-bottom: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
