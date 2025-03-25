@@ -1,6 +1,6 @@
 ---
 #layout: home
-layout: default
+layout: custom_home
 title: "My Continuous Data Story"
 ---
 
