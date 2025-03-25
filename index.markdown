@@ -1,6 +1,6 @@
 ---
 #layout: home
-layout: datastory
+layout: default
 title: "My Continuous Data Story"
 ---
 
