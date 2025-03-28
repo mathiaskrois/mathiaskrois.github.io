@@ -35,11 +35,12 @@ This intersection between homelessness and drug crime is particularly stark. The
 
 ## Visualization 3: Interactive Bokeh Visualization
 
-*Figure 3: An interactive Bokeh visualization that allows users to explore the relationship between years and the number of drug-related crimes. This interactive tool provides an engaging way to analyze trends and pinpoint correlations between policy changes, enforcement strategies, and the increasing crisis of fentanyl abuse.*
+Here comes the included content:
 
-The interactive Bokeh visualization offers users the opportunity to explore the nuances of drug-related crime data interactively. By hovering over the points on the plot, users can analyze how the number of drug-related crimes changes across different years, while also correlating those changes with significant events like drug policy reforms, shifts in law enforcement tactics, and the rise of fentanyl.
+{% include Mathias.html %}
 
-For example, the data from 2018 onward is particularly striking, as the city began to see a massive increase in opioid-related crimes, especially fentanyl overdoses. The interactive tool can allow users to zoom in on these years and explore more detailed aspects of this trend.
+More story content here...
+
 
 ## Conclusion
 
