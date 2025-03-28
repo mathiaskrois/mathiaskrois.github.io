@@ -5,9 +5,9 @@ title: "Analyzing Drug-Related Crimes in San Francisco"
 
 # Understanding Drug-Related Crimes in San Francisco
 
-San Francisco is a city known for its unique blend of innovation, culture and inclusivity, and has long struggled with deep-seated social problems. One of the most pressing and intricate of these issues is drug-related crime. 
+San Francisco is a city known for its unique blend of innovation, culture and inclusivity, and has long struggled with deep-seated social problems. One of the most pressing and intricate of these issues is drug-related crime.
 
-In the last two decades, we've seen a complex dance between policy shifts, like the legalization of certain drugs, and the pressing issues of homelessness, the fentanyl crisis, and the wider social and economic environment. This study delves into the patterns of drug-related offenses over the period 2023-2024, offering insights into the connections between these elements.
+In the last two decades, we've seen a complex dance between rising housing prices and living costs, policy shifts, like the legalization of certain drugs, the fentanyl crisis, and the wider social and economic environment. This study delves into the patterns of drug-related offenses over the period 2023-2024, offering insights into the connections between these elements.
 
 ## Overview of the Dataset
 
@@ -20,13 +20,17 @@ We combined two datasets to study drug-related crimes in San Francisco from 2003
 *Figure 1: A time series analysis of drug-related vs total crimes in San Francisco from 2003 to 2024. In the year 2003 the total number of crimes recorded were 114 541, while the number of recorded drug crimes was 5 775. The data reveals significant fluctuations, with notable peaks and valleys corresponding to policy changes, economic conditions, and societal shifts.*
 
 
+We observe that the number of drug realated crimes have decrease most years since 2003. From 2003 to 2024 number of drug related crimes have decreased by 70.8 %, compared to to total crimes which have just decreased by 31.8%.
 
-We observe that the number of drug realated crimes have decrease most years since 2003. From 2003 to 2024 number of drug related crimes have decreased by 70.8 %, compared to to total crimes which have just decreased by 31.8%. 
+The strongest decline was seen between 2008 and 2012, amounting for more then 50% decline. This could be attributed to aftermath of the financial crisis, where police had to dead with budget cuts and wherefore focused more on violent crimes. Furthermore there was also policitcal winds wanting to chagne the drug policy from the hard "war on drugs" approch to a more harm reduction way, which could have eased the rate.
 
-The strongest decline was seen between 2008 and 2012, amounting for more then 50% decline. This could be attributed to
+Furthermore, cannabis was legalized in the state of California efficently in 2018, which could have explain the continued decline afterwards.
 
+From 2020 to 2021, drug-related incidents dropped, likely due to COVID lockdowns, less public activity, and reduced police reporting.  
 
+The fentanyl and homelessness crises started around 2018–2019, increasing overdoses but not necessarily arrests, as fentanyl is easier to hide.  
 
+The overall decline likely reflects changes in policing, drug use patterns, and social conditions—not just less drug use.
 
 ## Visualization 2: Heatmap of Drug Crimes by Year
 
@@ -34,11 +38,17 @@ The strongest decline was seen between 2008 and 2012, amounting for more then 50
     <iframe src="images/drug_narcotic_heatmap_by_year.html" width="100%" height="600px"></iframe>
 </div>
 
-*Figure 2: A heatmap illustrating the geographical distribution of drug-related crimes across San Francisco. The heatmap provides a clear visualization of the areas most impacted by narcotic offenses, which are notably concentrated in certain neighborhoods. These hotspots highlight where resources and law enforcement efforts may be most needed, as well as areas that could benefit from targeted harm reduction strategies.*
+*Figure 2: A heatmap illustrating the geographical distribution of drug-related crimes across San Francisco per year. The heatmap provides a clear visualization of the areas most impacted by narcotic offenses, which are notably concentrated in certain neighborhoods like Downtown San Fransisco*
 
-The heatmap underscores the uneven geography of drug-related crimes. Certain neighborhoods—often those with high levels of poverty and homelessness—have seen persistent and escalating levels of drug-related offenses. As drug legalization efforts gain ground, particularly regarding cannabis, the city’s focus has shifted, with a growing emphasis on addressing the opioid crisis, especially in areas like Tenderloin, where homelessness and drug abuse rates have dramatically risen.
 
-This intersection between homelessness and drug crime is particularly stark. The city’s efforts to combat drug-related offenses often clash with the increasing visibility of homelessness. The rise in fentanyl use has compounded this crisis, with many individuals turning to the potent drug due to its accessibility and cheap cost. The fight against these intersecting issues remains one of the city’s most pressing challenges.
+The heatmap shows clear patterns: over the years, drug-related crimes have become more concentrated in downtown San Francisco. This likely happens because:
+
+– Police focus: Law enforcement puts more resources into downtown areas like the Tenderloin, where drug activity is more visible. This leads to more reports and arrests there, and fewer in other parts of the city.
+
+– Homelessness: As housing gets more expensive, more people without stable housing end up in downtown areas, where services and shelters are available. Many of them use drugs, which increases activity in those neighborhoods.
+
+– Gentrification: Rising housing prices and living costs can lead to gentrification. In areas where this happens and homelessness is less visible, drug-related crimes may decrease. But this can also push more drug activity into downtown, making the concentration even stronger.
+
 
 ## Visualization 3: Interactive Bokeh Visualization
 
