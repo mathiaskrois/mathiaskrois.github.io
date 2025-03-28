@@ -1,8 +1,13 @@
 Here’s some markdown content that will show up inside `index.markdown`.
 
-<div>
-    <iframe src="images/drug_narcotic_heatmap_by_year.html" width="100%" height="600px"></iframe>
-</div>
+Below is an embedded interactive Bokeh plot:
 
+<iframe 
+  src="images/myplot.html" 
+  width="100%" 
+  height="600" 
+  frameborder="0"
+  scrolling="no">
+</iframe>
 
 End of file
