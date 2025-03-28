@@ -37,7 +37,7 @@ This intersection between homelessness and drug crime is particularly stark. The
 
 Here comes the included content:
 
-{% include Mathias.html %}
+{% include_relative _site/details/Mathias.html %}
 
 More story content here...
 
