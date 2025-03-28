@@ -19,7 +19,8 @@ We combined two datasets to study drug-related crimes in San Francisco from 2003
 
 *Figure 1: A time series analysis of drug-related vs total crimes in San Francisco from 2003 to 2024. In the year 2003 the total number of crimes recorded were 114 541, while the number of recorded drug crimes was 5 775. The data reveals significant fluctuations, with notable peaks and valleys corresponding to policy changes, economic conditions, and societal shifts.*
 
-The sharp fluctuations seen in this graph point to an evolving landscape of drug-related crime, one that intersects with broader societal issues. While drug-related crimes have fluctuated, there are spikes that coincide with periods of significant policy change. For instance, the years leading up to and following the legalization of cannabis in California (in 2016) show interesting shifts in crime patterns, possibly reflecting the shifting legal landscape.
+
+The fluctuations seen in this graph point to an evolving landscape of drug-related crime, one that intersects with broader societal issues. While drug-related crimes have fluctuated, there are spikes that coincide with periods of significant policy change. For instance, the years leading up to and following the legalization of cannabis in California (in 2016) show interesting shifts in crime patterns, possibly reflecting the shifting legal landscape.
 
 However, these legal changes are only part of the story. The rising opioid crisis—particularly fentanyl—has played a major role in recent years, with overdose deaths and narcotic-related crimes soaring. The introduction of fentanyl into the drug market has fundamentally altered the nature of drug abuse and the criminal landscape in San Francisco.
 
