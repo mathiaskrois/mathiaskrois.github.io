@@ -3,7 +3,7 @@ Here’s some markdown content that will show up inside `index.markdown`.
 Below is an embedded interactive Bokeh plot:
 
 <iframe 
-  src="{{/mathiaskrois.github.io}}/myplot.html" 
+  src="{{ site.url }}/myplot.html" 
   width="100%" 
   height="600" 
   frameborder="0" 
