@@ -98,14 +98,6 @@ The surge in housing prices and living costs can lead to gentrification. In area
 </table>
 The correlation metric quantifies how often DRUG/NARCOTIC incidents and another crime type occur simultaneously across space and time. It is calculated as the Pearson correlation coefficient between two binary presence vectors, each representing whether a given crime was recorded in a specific hour and grid cell. A higher value indicates stronger spatiotemporal alignment between the two crime types.
 
-<div style="display: flex; justify-content: center;">
-  <iframe 
-    src="/images/myplot.html"
-    style="width: 90vw; max-width: 1000px; height: 800px; border: none;"
-    loading="lazy">
-  </iframe>
-</div>
-
 ## Conclusion
 
 The analysis of drug-related crimes in San Francisco from 2003 to 2024 reveals a complex story shaped by various interconnected factors. The fluctuations in crime data align with significant policy changes, including the legalization of marijuana in California and the increasing prevalence of fentanyl. These trends suggest that drug-related crimes cannot be understood in isolation, but rather as part of a larger socio-political context, where drug legalization, homelessness, and the opioid crisis all play a critical role.
@@ -113,6 +105,7 @@ The analysis of drug-related crimes in San Francisco from 2003 to 2024 reveals a
 As policymakers and community leaders consider future strategies, it’s essential to understand these nuances. While drug policy changes have led to shifts in certain types of crime, they have not resolved the broader issues surrounding substance abuse, mental health, and homelessness. A more integrated approach that combines enforcement with harm reduction, access to mental health services, and support for the homeless is critical to addressing these challenges comprehensively.
 
 ## References
-
+- [Website Repository](https://github.com/mathiaskrois/mathiaskrois.github.io)
+- [Assignment 2 Code Repository](https://github.com/mathiaskrois/-socialdata2025-MMC-/tree/main/Assignments/A2)
 - [San Francisco Crime Data](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/2e3c-8j8g)
 - [Local News on Drug Policies](https://www.sfchronicle.com/news/article/San-Francisco-drug-policy-changes-2023-12345678)
