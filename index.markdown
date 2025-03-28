@@ -5,17 +5,19 @@ title: "Analyzing Drug-Related Crimes in San Francisco"
 
 # Understanding Drug-Related Crimes in San Francisco
 
-San Francisco has long been a city of contrasts, where innovation, culture, and inclusivity intersect with entrenched social issues. Among these, drug-related crimes have remained a persistent and complex challenge. This analysis takes a deep dive into the trends of drug-related crimes over the past two decades, exploring how shifts in policies, such as drug legalization, have interplayed with rising homelessness, the fentanyl crisis, and broader socio-economic factors.
+San Francisco is a city known for its unique blend of innovation, culture and inclusivity, and has long struggled with deep-seated social problems. One of the most pressing and intricate of these issues is drug-related crime. 
+
+In the last two decades, we've seen a complex dance between policy shifts, like the legalization of certain drugs, and the pressing issues of homelessness, the fentanyl crisis, and the wider social and economic environment. This study delves into the patterns of drug-related offenses over the period 2023-2024, offering insights into the connections between these elements.
 
 ## Overview of the Dataset
 
-The dataset utilized in this study covers drug-related criminal incidents reported in San Francisco from 2003 to 2024. This rich data provides insight into various types of drug offenses, including possession, trafficking, and narcotic-related crimes. By analyzing these offenses, we aim to uncover patterns that may shed light on the effectiveness of law enforcement strategies, policy shifts, and broader societal changes.
+We combined two datasets to study drug-related crimes in San Francisco from 2003 to the present. The datasets categorize crimes into categories like for example assults, trafficking, and drug / narcotic offenses. Since the datasets categorized crimes differently, we matched them to ensure consistency. We also excluded the year 2025 since it's incomplete.
 
 ## Visualization 1: Time Series of Drug Crimes
 
 ![Drug Crimes Over Time](images/drug_narcotic_crimes_per_year.png)
 
-*Figure 1: A time series analysis of drug-related crimes in San Francisco from 2003 to 2024. The data reveals significant fluctuations, with notable peaks and valleys corresponding to policy changes, economic conditions, and societal shifts. These trends can help inform the ongoing debate around drug policy, enforcement practices, and harm reduction strategies.*
+*Figure 1: A time series analysis of drug-related vs total crimes in San Francisco from 2003 to 2024. In the year 2003 the total number of crimes recorded were 114 541, while the number of recorded drug crimes was 5 775. The data reveals significant fluctuations, with notable peaks and valleys corresponding to policy changes, economic conditions, and societal shifts.*
 
 The sharp fluctuations seen in this graph point to an evolving landscape of drug-related crime, one that intersects with broader societal issues. While drug-related crimes have fluctuated, there are spikes that coincide with periods of significant policy change. For instance, the years leading up to and following the legalization of cannabis in California (in 2016) show interesting shifts in crime patterns, possibly reflecting the shifting legal landscape.
 
@@ -35,11 +37,9 @@ This intersection between homelessness and drug crime is particularly stark. The
 
 ## Visualization 3: Interactive Bokeh Visualization
 
-Here comes the included content:
-
-{% include_relative _site/details/Mathias.html %}
-
-More story content here...
+<div>
+    <iframe src="/images/myplot.html" width="100%" height="500px"></iframe>
+</div>
 
 
 ## Conclusion
