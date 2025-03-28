@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>{{ page.title }}</title>
-  <!-- The original main.css is being imported by datastory.css,
-       so you only need to link datastory.css here. -->
-  <link rel="stylesheet" href="{{ _layouts/datastory.css' | relative_url }}">
-</head>
-<body>
-
-  <div class="cover" style="background-image: url('/Users/mathiaskroismoller/Git/Social Data Visulisation/mathiaskrois.github.io/images/COVER.webp');">
-    <h1 class="cover-title">{{ page.title }}</h1>
-  </div>
-
-  <main class="page-content">
-    {{ content }}
-  </main>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  </head>
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+  </body>
 </html>
