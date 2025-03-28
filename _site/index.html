@@ -19,13 +19,8 @@
 {"@context":"https://schema.org","@type":"WebSite","description":"This site showcases projects and blog posts by Mathias Krois Møller.","headline":"Analyzing Drug-Related Crimes in San Francisco","name":"Mathias’ GitHub Page","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Mathias&apos; GitHub Page" /></head>
-<body>
-  
-  <div style="text-align: center;">
-    <img src="images/Crime_analysis_SAN_FRAN.PNG" alt="Banner" style="width: 100%; height: auto;">
-  </div>
-  <header class="site-header" role="banner">
-  
+<body><header class="site-header" role="banner">
+
   <div class="wrapper"><a class="site-title" rel="author" href="/">Mathias&#39; GitHub Page</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -43,21 +38,43 @@
       <div class="wrapper">
         <div class="home"><h1 class="page-heading">Analyzing Drug-Related Crimes in San Francisco</h1><h1 id="understanding-drug-related-crimes-in-san-francisco">Understanding Drug-Related Crimes in San Francisco</h1>
 
-<p>San Francisco has long been a city of contrasts, where innovation, culture, and inclusivity intersect with entrenched social issues. Among these, drug-related crimes have remained a persistent and complex challenge. This analysis takes a deep dive into the trends of drug-related crimes over the past two decades, exploring how shifts in policies, such as drug legalization, have interplayed with rising homelessness, the fentanyl crisis, and broader socio-economic factors.</p>
+<p>San Francisco is a city known for its unique blend of innovation, culture and inclusivity, and has long struggled with deep-seated social problems. One of the most pressing and intricate of these issues is drug-related crime.</p>
+
+<p>In the last two decades, we’ve seen a complex dance between rising housing prices and living costs, policy shifts, like the legalization of certain drugs, the fentanyl crisis, and the wider social and economic environment. This study delves into the patterns of drug-related offenses over the period 2023-2024, offering insights into the connections between these elements.</p>
 
 <h2 id="overview-of-the-dataset">Overview of the Dataset</h2>
 
-<p>The dataset utilized in this study covers drug-related criminal incidents reported in San Francisco from 2003 to 2024. This rich data provides insight into various types of drug offenses, including possession, trafficking, and narcotic-related crimes. By analyzing these offenses, we aim to uncover patterns that may shed light on the effectiveness of law enforcement strategies, policy shifts, and broader societal changes.</p>
+<p>We combined two datasets to study drug-related crimes in San Francisco from 2003 to the present. The datasets categorize crimes into categories like for example assults, trafficking, and drug / narcotic offenses. Since the datasets categorized crimes differently, we matched them to ensure consistency. We also excluded the year 2025 since it’s incomplete.</p>
 
 <h2 id="visualization-1-time-series-of-drug-crimes">Visualization 1: Time Series of Drug Crimes</h2>
 
 <p><img src="/images/drug_narcotic_crimes_per_year.png" alt="Drug Crimes Over Time" /></p>
 
-<p><em>Figure 1: A time series analysis of drug-related crimes in San Francisco from 2003 to 2024. The data reveals significant fluctuations, with notable peaks and valleys corresponding to policy changes, economic conditions, and societal shifts. These trends can help inform the ongoing debate around drug policy, enforcement practices, and harm reduction strategies.</em></p>
+<p><em>Figure 1: A time series analysis of drug-related vs total crimes in San Francisco from 2003 to 2024. In the year 2003 the total number of crimes recorded were 114 541, while the number of recorded drug crimes was 5 775. The data reveals significant fluctuations, with notable peaks and valleys corresponding to policy changes, economic conditions, and societal shifts.</em></p>
 
-<p>The sharp fluctuations seen in this graph point to an evolving landscape of drug-related crime, one that intersects with broader societal issues. While drug-related crimes have fluctuated, there are spikes that coincide with periods of significant policy change. For instance, the years leading up to and following the legalization of cannabis in California (in 2016) show interesting shifts in crime patterns, possibly reflecting the shifting legal landscape.</p>
+<h3 id="decline-in-drug-related-crimes">Decline in Drug-Related Crimes</h3>
 
-<p>However, these legal changes are only part of the story. The rising opioid crisis—particularly fentanyl—has played a major role in recent years, with overdose deaths and narcotic-related crimes soaring. The introduction of fentanyl into the drug market has fundamentally altered the nature of drug abuse and the criminal landscape in San Francisco.</p>
+<p>We observe a significant decrease in drug-related crimes over the years since 2003. Between 2003 and 2024, drug-related crimes have decreased by <strong>70.8%</strong>, compared to a <strong>31.8%</strong> decrease in total crimes.</p>
+
+<h4 id="period-of-strongest-decline">Period of Strongest Decline</h4>
+
+<p>The most pronounced decline occurred between 2008 and 2012, with a <strong>50%</strong> decrease. This could be attributed to the aftermath of the financial crisis, which led to budget cuts for police departments, causing them to focus more on violent crimes. Additionally, there was a shift in political winds towards a more harm reduction-oriented drug policy, which may have contributed to the decline.</p>
+
+<h4 id="impact-of-cannabis-legalization">Impact of Cannabis Legalization</h4>
+
+<p>The legalization of cannabis in California in 2018 likely contributed to the continued decline in drug-related crimes.</p>
+
+<h4 id="covid-19-pandemic-and-its-effects">COVID-19 Pandemic and Its Effects</h4>
+
+<p>From 2020 to 2021, drug-related incidents dropped, likely due to COVID lockdowns, reduced public activity, and decreased police reporting.</p>
+
+<h4 id="fentanyl-and-homelessness-crises">Fentanyl and Homelessness Crises</h4>
+
+<p>The fentanyl and homelessness crises, which began around 2018-2019, have led to an increase in overdoses but not necessarily arrests, as fentanyl is easier to conceal.</p>
+
+<h4 id="reflections-on-the-decline">Reflections on the Decline</h4>
+
+<p>The overall decline in drug-related crimes likely reflects changes in policing strategies, drug use patterns, and social conditions, rather than simply a decrease in drug use.</p>
 
 <h2 id="visualization-2-heatmap-of-drug-crimes-by-year">Visualization 2: Heatmap of Drug Crimes by Year</h2>
 
@@ -65,104 +82,54 @@
     <iframe src="images/drug_narcotic_heatmap_by_year.html" width="100%" height="600px"></iframe>
 </div>
 
-<p><em>Figure 2: A heatmap illustrating the geographical distribution of drug-related crimes across San Francisco. The heatmap provides a clear visualization of the areas most impacted by narcotic offenses, which are notably concentrated in certain neighborhoods. These hotspots highlight where resources and law enforcement efforts may be most needed, as well as areas that could benefit from targeted harm reduction strategies.</em></p>
+<p><em>Figure 2: A heatmap illustrating the geographical distribution of drug-related crimes across San Francisco per year. The heatmap provides a clear visualization of the areas most impacted by narcotic offenses, which are notably concentrated in certain neighborhoods like Downtown San Fransisco</em></p>
 
-<p>The heatmap underscores the uneven geography of drug-related crimes. Certain neighborhoods—often those with high levels of poverty and homelessness—have seen persistent and escalating levels of drug-related offenses. As drug legalization efforts gain ground, particularly regarding cannabis, the city’s focus has shifted, with a growing emphasis on addressing the opioid crisis, especially in areas like Tenderloin, where homelessness and drug abuse rates have dramatically risen.</p>
+<p>The heatmap reveals a striking trend: drug-related crimes have become increasingly concentrated in downtown San Francisco over the years, especially the last 10 years. This phenomenon can be attributed to several factors:</p>
 
-<p>This intersection between homelessness and drug crime is particularly stark. The city’s efforts to combat drug-related offenses often clash with the increasing visibility of homelessness. The rise in fentanyl use has compounded this crisis, with many individuals turning to the potent drug due to its accessibility and cheap cost. The fight against these intersecting issues remains one of the city’s most pressing challenges.</p>
+<h3 id="police-focus">Police Focus</h3>
+<p>Law enforcement agencies allocate more resources to downtown areas like the Tenderloin, where drug activity is more pronounced. This results in a higher number of reports and arrests in these areas, while other parts of the city see fewer incidents.</p>
+
+<h3 id="homelessness">Homelessness</h3>
+<p>As housing costs continue to rise, individuals without stable housing are more likely to congregate in downtown areas, where essential services and shelters are readily available. Unfortunately, many of these individuals struggle with drug addiction, contributing to the increased drug activity in these neighborhoods.</p>
+
+<h3 id="gentrification">Gentrification</h3>
+<p>The surge in housing prices and living costs can lead to gentrification. In areas where gentrification occurs and homelessness becomes less visible, drug-related crimes might decrease. However, this process can also displace drug activity into downtown areas, further intensifying the concentration of drug-related crimes.</p>
 
 <h2 id="visualization-3-interactive-bokeh-visualization">Visualization 3: Interactive Bokeh Visualization</h2>
 
-<p>Here comes the included content:</p>
-
-<p>&lt;!DOCTYPE html&gt;</p>
-<html lang="en"><head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" /><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Mathias’ GitHub Page | This site showcases projects and blog posts by Mathias Krois Møller.</title>
-<meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Mathias’ GitHub Page" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="This site showcases projects and blog posts by Mathias Krois Møller." />
-<meta property="og:description" content="This site showcases projects and blog posts by Mathias Krois Møller." />
-<link rel="canonical" href="http://localhost:4000/details/Mathias.html" />
-<meta property="og:url" content="http://localhost:4000/details/Mathias.html" />
-<meta property="og:site_name" content="Mathias’ GitHub Page" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Mathias’ GitHub Page" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"This site showcases projects and blog posts by Mathias Krois Møller.","headline":"Mathias’ GitHub Page","url":"http://localhost:4000/details/Mathias.html"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css" /><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Mathias&apos; GitHub Page" /></head>
-<body><header class="site-header" role="banner">
-
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Mathias&#39; GitHub Page</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z" />
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/details/detail1">Detailed Analysis of Section 1</a><a class="page-link" href="/details/detail2">Detailed Analysis of Section 2</a><a class="page-link" href="/details/detail3">Detailed Analysis of Section 3</a><a class="page-link" href="/">Analyzing Drug-Related Crimes in San Francisco</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title"></h1>
-  </header>
-
-  <div class="post-content">
-    <p>Here’s some markdown content that will show up inside <code class="language-plaintext highlighter-rouge">index.markdown</code>.</p>
-
-<p>Below is an embedded interactive Bokeh plot:</p>
-
-<iframe src="/images/myplod.html" width="100%" height="600" frameborder="0" scrolling="no">
-</iframe>
-
-<p>End of file</p>
-
-  </div>
-
-</article>
-
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Mathias&#39; GitHub Page</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Mathias&#39; GitHub Page</li><li><a class="u-email" href="mailto:s214422@dtu.dk">s214422@dtu.dk</a></li></ul>
-      </div>
-
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/mathiaskrois"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">mathiaskrois</span></a></li><li><a href="https://www.twitter.com/your_twitter_username_here"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">your_twitter_username_here</span></a></li></ul>
+<div style="display: flex; justify-content: center;">
+  <iframe src="/images/crime_coocc_map.html" style="width: 90vw; max-width: 1000px; height: 700px; border: none;" loading="lazy">
+  </iframe>
 </div>
 
-      <div class="footer-col footer-col-3">
-        <p>This site showcases projects and blog posts by Mathias Krois Møller.</p>
-      </div>
-    </div>
+<p><em>Figure 3: Interactive heatmap showing spatial co-occurrence between DRUG/NARCOTIC incidents and selected focus crimes in San Francisco. Each grid cell (~100 m²) is colored by the number of hours during the week in which both crimes occurred simultaneously at that location. Users can select which crime to compare using the dropdown menu.</em></p>
 
-  </div>
+<h3>Spatiotemporal correlation with DRUG/NARCOTIC incidents (presence-based, Pearson r)</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Crime Type</th>
+      <th>Correlation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><b>WEAPON LAWS</b></td><td>0.195</td></tr>
+    <tr><td><b>ASSAULT</b></td><td>0.176</td></tr>
+    <tr><td><b>ROBBERY</b></td><td>0.152</td></tr>
+    <tr><td><b>STOLEN PROPERTY</b></td><td>0.140</td></tr>
+    <tr><td><b>PROSTITUTION</b></td><td>0.071</td></tr>
+    <tr><td><b>VANDALISM</b></td><td>0.069</td></tr>
+    <tr><td><b>BURGLARY</b></td><td>0.030</td></tr>
+    <tr><td><b>LARCENY/THEFT</b></td><td>0.029</td></tr>
+    <tr><td><b>VEHICLE THEFT</b></td><td>0.009</td></tr>
+  </tbody>
+</table>
+<p>The correlation metric quantifies how often DRUG/NARCOTIC incidents and another crime type occur simultaneously across space and time. It is calculated as the Pearson correlation coefficient between two binary presence vectors, each representing whether a given crime was recorded in a specific hour and grid cell. A higher value indicates stronger spatiotemporal alignment between the two crime types.</p>
 
-</footer>
-</body>
-
-</html>
-
-<p>More story content here…</p>
+<div style="display: flex; justify-content: center;">
+  <iframe src="/images/myplot.html" style="width: 90vw; max-width: 1000px; height: 800px; border: none;" loading="lazy">
+  </iframe>
+</div>
 
 <h2 id="conclusion">Conclusion</h2>
 
@@ -176,20 +143,7 @@
   <li><a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/2e3c-8j8g">San Francisco Crime Data</a></li>
   <li><a href="https://www.sfchronicle.com/news/article/San-Francisco-drug-policy-changes-2023-12345678">Local News on Drug Policies</a></li>
 </ul>
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Mar 18, 2025</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2025/03/18/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li><li><span class="post-meta">Mar 18, 2025</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2025/03/18/my-first-blog-post.html">
-            My First Blog Post
-          </a>
-        </h3></li></ul>
-
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+</div>
 
       </div>
     </main><footer class="site-footer h-card">
