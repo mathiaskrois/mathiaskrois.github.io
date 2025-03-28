@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: custom_home
+
 title: "Analyzing Drug-Related Crimes in San Francisco"
 ---
 
