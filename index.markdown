@@ -20,17 +20,29 @@ We combined two datasets to study drug-related crimes in San Francisco from 2003
 *Figure 1: A time series analysis of drug-related vs total crimes in San Francisco from 2003 to 2024. In the year 2003 the total number of crimes recorded were 114 541, while the number of recorded drug crimes was 5 775. The data reveals significant fluctuations, with notable peaks and valleys corresponding to policy changes, economic conditions, and societal shifts.*
 
 
-We observe that the number of drug realated crimes have decrease most years since 2003. From 2003 to 2024 number of drug related crimes have decreased by 70.8 %, compared to to total crimes which have just decreased by 31.8%.
+### Decline in Drug-Related Crimes
 
-The strongest decline was seen between 2008 and 2012, amounting for more then 50% decline. This could be attributed to aftermath of the financial crisis, where police had to dead with budget cuts and wherefore focused more on violent crimes. Furthermore there was also policitcal winds wanting to chagne the drug policy from the hard "war on drugs" approch to a more harm reduction way, which could have eased the rate.
+We observe a significant decrease in drug-related crimes over the years since 2003. Between 2003 and 2024, drug-related crimes have decreased by **70.8%**, compared to a **31.8%** decrease in total crimes.
 
-Furthermore, cannabis was legalized in the state of California efficently in 2018, which could have explain the continued decline afterwards.
+#### Period of Strongest Decline
 
-From 2020 to 2021, drug-related incidents dropped, likely due to COVID lockdowns, less public activity, and reduced police reporting.  
+The most pronounced decline occurred between 2008 and 2012, with a **50%** decrease. This could be attributed to the aftermath of the financial crisis, which led to budget cuts for police departments, causing them to focus more on violent crimes. Additionally, there was a shift in political winds towards a more harm reduction-oriented drug policy, which may have contributed to the decline.
 
-The fentanyl and homelessness crises started around 2018–2019, increasing overdoses but not necessarily arrests, as fentanyl is easier to hide.  
+#### Impact of Cannabis Legalization
 
-The overall decline likely reflects changes in policing, drug use patterns, and social conditions—not just less drug use.
+The legalization of cannabis in California in 2018 likely contributed to the continued decline in drug-related crimes.
+
+#### COVID-19 Pandemic and Its Effects
+
+From 2020 to 2021, drug-related incidents dropped, likely due to COVID lockdowns, reduced public activity, and decreased police reporting.
+
+#### Fentanyl and Homelessness Crises
+
+The fentanyl and homelessness crises, which began around 2018-2019, have led to an increase in overdoses but not necessarily arrests, as fentanyl is easier to conceal.
+
+#### Reflections on the Decline
+
+The overall decline in drug-related crimes likely reflects changes in policing strategies, drug use patterns, and social conditions, rather than simply a decrease in drug use.
 
 ## Visualization 2: Heatmap of Drug Crimes by Year
 
@@ -40,14 +52,16 @@ The overall decline likely reflects changes in policing, drug use patterns, and 
 
 *Figure 2: A heatmap illustrating the geographical distribution of drug-related crimes across San Francisco per year. The heatmap provides a clear visualization of the areas most impacted by narcotic offenses, which are notably concentrated in certain neighborhoods like Downtown San Fransisco*
 
+The heatmap reveals a striking trend: drug-related crimes have become increasingly concentrated in downtown San Francisco over the years, especially the last 10 years. This phenomenon can be attributed to several factors:
 
-The heatmap shows clear patterns: over the years, drug-related crimes have become more concentrated in downtown San Francisco. This likely happens because:
+### Police Focus
+Law enforcement agencies allocate more resources to downtown areas like the Tenderloin, where drug activity is more pronounced. This results in a higher number of reports and arrests in these areas, while other parts of the city see fewer incidents.
 
-– Police focus: Law enforcement puts more resources into downtown areas like the Tenderloin, where drug activity is more visible. This leads to more reports and arrests there, and fewer in other parts of the city.
+### Homelessness
+As housing costs continue to rise, individuals without stable housing are more likely to congregate in downtown areas, where essential services and shelters are readily available. Unfortunately, many of these individuals struggle with drug addiction, contributing to the increased drug activity in these neighborhoods.
 
-– Homelessness: As housing gets more expensive, more people without stable housing end up in downtown areas, where services and shelters are available. Many of them use drugs, which increases activity in those neighborhoods.
-
-– Gentrification: Rising housing prices and living costs can lead to gentrification. In areas where this happens and homelessness is less visible, drug-related crimes may decrease. But this can also push more drug activity into downtown, making the concentration even stronger.
+### Gentrification
+The surge in housing prices and living costs can lead to gentrification. In areas where gentrification occurs and homelessness becomes less visible, drug-related crimes might decrease. However, this process can also displace drug activity into downtown areas, further intensifying the concentration of drug-related crimes.
 
 
 ## Visualization 3: Interactive Bokeh Visualization
