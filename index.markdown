@@ -68,12 +68,43 @@ The surge in housing prices and living costs can lead to gentrification. In area
 
 <div style="display: flex; justify-content: center;">
   <iframe 
+    src="/images/crime_coocc_map.html"
+    style="width: 90vw; max-width: 1000px; height: 700px; border: none;"
+    loading="lazy">
+  </iframe>
+</div>
+
+*Figure 3: Interactive heatmap showing spatial co-occurrence between DRUG/NARCOTIC incidents and selected focus crimes in San Francisco. Each grid cell (~100 m²) is colored by the number of hours during the week in which both crimes occurred simultaneously at that location. Users can select which crime to compare using the dropdown menu.*
+
+<h3>Spatiotemporal correlation with DRUG/NARCOTIC incidents (presence-based, Pearson r)</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Crime Type</th>
+      <th>Correlation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><b>WEAPON LAWS</b></td><td>0.195</td></tr>
+    <tr><td><b>ASSAULT</b></td><td>0.176</td></tr>
+    <tr><td><b>ROBBERY</b></td><td>0.152</td></tr>
+    <tr><td><b>STOLEN PROPERTY</b></td><td>0.140</td></tr>
+    <tr><td><b>PROSTITUTION</b></td><td>0.071</td></tr>
+    <tr><td><b>VANDALISM</b></td><td>0.069</td></tr>
+    <tr><td><b>BURGLARY</b></td><td>0.030</td></tr>
+    <tr><td><b>LARCENY/THEFT</b></td><td>0.029</td></tr>
+    <tr><td><b>VEHICLE THEFT</b></td><td>0.009</td></tr>
+  </tbody>
+</table>
+The correlation metric quantifies how often DRUG/NARCOTIC incidents and another crime type occur simultaneously across space and time. It is calculated as the Pearson correlation coefficient between two binary presence vectors, each representing whether a given crime was recorded in a specific hour and grid cell. A higher value indicates stronger spatiotemporal alignment between the two crime types.
+
+<div style="display: flex; justify-content: center;">
+  <iframe 
     src="/images/myplot.html"
     style="width: 90vw; max-width: 1000px; height: 800px; border: none;"
     loading="lazy">
   </iframe>
 </div>
-
 
 ## Conclusion
 
