@@ -39,7 +39,7 @@ Here comes the included content:
 
 {% include_relative _site/details/Mathias.html %}
 
-More story content here....
+More story content here...
 
 
 ## Conclusion
