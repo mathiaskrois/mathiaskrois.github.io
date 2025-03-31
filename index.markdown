@@ -51,7 +51,7 @@ The overall decline in drug-related crimes likely reflects changes in policing s
     <iframe src="images/drug_narcotic_heatmap_by_year.html" width="100%" height="600px"></iframe>
 </div>
 
-*Figure 2: A heatmap illustrating the geographical distribution of drug-related crimes across San Francisco per year. The heatmap provides a clear visualization of the areas most impacted by narcotic offenses, which are notably concentrated in certain neighborhoods like Downtown San Fransisco*
+*Figure 2: A heatmap illustrating the geographical distribution of drug-related crimes across San Francisco per year. The heatmap provides a clear visualization of the areas most impacted by narcotic offenses, which are notably concentrated in certain neighborhoods like Downtown San Francisco*
 
 The heatmap reveals a striking trend: drug-related crimes have become increasingly concentrated in downtown San Francisco over the years, especially the last 10 years. This phenomenon can be attributed to several factors:
 
