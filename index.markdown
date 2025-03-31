@@ -39,7 +39,8 @@ From 2020 to 2021, drug-related incidents dropped, likely due to COVID lockdowns
 
 #### Recent Policy Shifts and Enforcement
 
-Since July 2022, under District Attorney Brooke Jenkins' administration, there has been a significant shift in narcotics enforcement policy. The DA's office has filed over 1,900 felony narcotics cases out of more than 2,200 presented cases. This increase in prosecutions reflects a deliberate policy change, including the revocation of previous lenient plea offers and implementation of stricter prosecution guidelines for drug dealers, particularly those involved in fentanyl distribution [San Francisco District Attorney's Office](https://sfdistrictattorney.org/news/felony-narcotics-prosecutions/).
+Since July 2022, under District Attorney Brooke Jenkins' administration, there has been a significant shift in narcotics enforcement policy. The DA's office has filed over 1,900 felony narcotics cases out of more than 2,200 presented cases. This increase in prosecutions reflects a deliberate policy change, including the revocation of previous lenient plea offers and implementation of stricter prosecution guidelines for drug dealers, particularly those involved in fentanyl distribution.
+[San Francisco District Attorney's Office](https://sfdistrictattorney.org/news/felony-narcotics-prosecutions/).
 
 #### Fentanyl and Homelessness Crises
 
