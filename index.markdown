@@ -77,7 +77,6 @@ The surge in housing prices and living costs can lead to gentrification. In area
 
 *Figure 3: Interactive heatmap showing spatial co-occurrence between DRUG/NARCOTIC incidents and selected focus crimes in San Francisco. Each grid cell (~100 m²) is colored by the number of hours during the week in which both crimes occurred simultaneously at that location. Users can select which crime to compare using the dropdown menu.*
 
-<h3>Spatiotemporal correlation with DRUG/NARCOTIC incidents (presence-based, Pearson r)</h3>
 <table>
   <thead>
     <tr>
@@ -97,13 +96,19 @@ The surge in housing prices and living costs can lead to gentrification. In area
     <tr><td><b>VEHICLE THEFT</b></td><td>0.009</td></tr>
   </tbody>
 </table>
-The correlation metric quantifies how often DRUG/NARCOTIC incidents and another crime type occur simultaneously across space and time. It is calculated as the Pearson correlation coefficient between two binary presence vectors, each representing whether a given crime was recorded in a specific hour and grid cell. A higher value indicates stronger spatiotemporal alignment between the two crime types.
+
+*Table 1: The correlation metric quantifies how often DRUG/NARCOTIC incidents and another crime type occur simultaneously across space and time. It is calculated as the Pearson correlation coefficient between two binary presence vectors, each representing whether a given crime was recorded in a specific hour and grid cell. A higher value indicates stronger spatiotemporal alignment between the two crime types.*
+
+Building on the temporal and geographic perspectives presented in Sections 1 and 2, our final visualization (Figure 3) takes a "spatiotemporal" approach, revealing how DRUG/NARCOTIC incidents relate to other crimes within specific blocks of time and location. The interactive heatmap highlights areas of simultaneous occurrence and allows users to select a focus crime and explore its overlap with drug-related offenses in hourly, 100 m grid cells.
+
+This granular view of where and when crimes intersect aligns with broader patterns observed in the earlier heatmap (Section 2), which showed a concentration of drug activity in downtown neighborhoods. Here we see that other offenses, such as WEAPON LAWS and ASSAULT, display relatively higher co-occurrence with DRUG/NARCOTIC incidents, suggesting a partial overlap in the social environments and timescales of these crimes. On the other hand, offenses like VEHICLE THEFT show minimal alignment, hinting that such crimes unfold under different circumstances.
+
+To quantify these overlaps, we calculate a Pearson correlation coefficient based on the presence or absence of each crime in the same location and hour as a drug offense (Table 1). Although this measure does not capture every factor that shapes criminal activity, it provides a clear indicator of how often different offenses appear alongside drug-related incidents in space and time. These findings align with the long-term trends noted earlier about how shifts in policy, enforcement, and social conditions may selectively reduce certain crimes while leaving others more intertwined with narcotic offenses.
 
 ## Conclusion
+**Conclusion**
 
-The analysis of drug-related crimes in San Francisco from 2003 to 2024 reveals a complex story shaped by various interconnected factors. The fluctuations in crime data align with significant policy changes, including the legalization of marijuana in California and the increasing prevalence of fentanyl. These trends suggest that drug-related crimes cannot be understood in isolation, but rather as part of a larger socio-political context, where drug legalization, homelessness, and the opioid crisis all play a critical role.
-
-As policymakers and community leaders consider future strategies, it’s essential to understand these nuances. While drug policy changes have led to shifts in certain types of crime, they have not resolved the broader issues surrounding substance abuse, mental health, and homelessness. A more integrated approach that combines enforcement with harm reduction, access to mental health services, and support for the homeless is critical to addressing these challenges comprehensively.
+This analysis indicates that drug-related crimes in San Francisco have declined notably since 2003, reflecting shifts in policing strategy, social policy, and economic forces. While the overall frequency of drug offenses has fallen, our heatmap and correlation analysis underscore that drug incidents still overlap with specific crime types—most notably WEAPON LAWS and ASSAULT—in both space and time. These results suggest that targeted measures in neighborhoods with high co-occurrence, coupled with broader social support measures, could more effectively address the intertwined challenges of drug abuse and associated criminal activity.
 
 ## References
 - [Website Repository](https://github.com/mathiaskrois/mathiaskrois.github.io)
