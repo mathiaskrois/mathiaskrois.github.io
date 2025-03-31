@@ -37,6 +37,10 @@ The legalization of cannabis in California in 2018 likely contributed to the con
 
 From 2020 to 2021, drug-related incidents dropped, likely due to COVID lockdowns, reduced public activity, and decreased police reporting.
 
+#### Recent Policy Shifts and Enforcement
+
+Since July 2022, under District Attorney Brooke Jenkins' administration, there has been a significant shift in narcotics enforcement policy. The DA's office has filed over 1,900 felony narcotics cases out of more than 2,200 presented cases. This increase in prosecutions reflects a deliberate policy change, including the revocation of previous lenient plea offers and implementation of stricter prosecution guidelines for drug dealers, particularly those involved in fentanyl distribution [San Francisco District Attorney's Office](https://sfdistrictattorney.org/news/felony-narcotics-prosecutions/).
+
 #### Fentanyl and Homelessness Crises
 
 The fentanyl and homelessness crises, which began around 2018-2019, have led to an increase in overdoses but not necessarily arrests, as fentanyl is easier to conceal.
@@ -51,7 +55,7 @@ The overall decline in drug-related crimes likely reflects changes in policing s
     <iframe src="images/drug_narcotic_heatmap_by_year.html" width="100%" height="600px"></iframe>
 </div>
 
-*Figure 2: A heatmap illustrating the geographical distribution of drug-related crimes across San Francisco per year. The heatmap provides a clear visualization of the areas most impacted by narcotic offenses, which are notably concentrated in certain neighborhoods like Downtown San Fransisco*
+*Figure 2: A heatmap illustrating the geographical distribution of drug-related crimes across San Francisco per year. The heatmap provides a clear visualization of the areas most impacted by narcotic offenses, which are notably concentrated in certain neighborhoods like Downtown San Francisco*
 
 The heatmap reveals a striking trend: drug-related crimes have become increasingly concentrated in downtown San Francisco over the years, especially the last 10 years. This phenomenon can be attributed to several factors:
 
