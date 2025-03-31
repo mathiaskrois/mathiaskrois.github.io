@@ -106,8 +106,6 @@ This granular view of where and when crimes intersect aligns with broader patter
 To quantify these overlaps, we calculate a Pearson correlation coefficient based on the presence or absence of each crime in the same location and hour as a drug offense (Table 1). Although this measure does not capture every factor that shapes criminal activity, it provides a clear indicator of how often different offenses appear alongside drug-related incidents in space and time. These findings align with the long-term trends noted earlier about how shifts in policy, enforcement, and social conditions may selectively reduce certain crimes while leaving others more intertwined with narcotic offenses.
 
 ## Conclusion
-**Conclusion**
-
 This analysis indicates that drug-related crimes in San Francisco have declined notably since 2003, reflecting shifts in policing strategy, social policy, and economic forces. While the overall frequency of drug offenses has fallen, our heatmap and correlation analysis underscore that drug incidents still overlap with specific crime types, most notably WEAPON LAWS and ASSAULT, in both space and time. These results suggest that targeted measures in neighborhoods with high co-occurrence, coupled with broader social support measures, could more effectively address the intertwined challenges of drug abuse and associated criminal activity.
 
 ## References
@@ -115,3 +113,7 @@ This analysis indicates that drug-related crimes in San Francisco have declined 
 - [Assignment 2 Code Repository](https://github.com/mathiaskrois/-socialdata2025-MMC-/tree/main/Assignments/A2)
 - [San Francisco Crime Data](https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/2e3c-8j8g)
 - [Local News on Drug Policies](https://www.sfchronicle.com/news/article/San-Francisco-drug-policy-changes-2023-12345678)
+
+## Contributions
+All three team members contributed across all five parts of the project. All members have completed the weekly exercises need for this project. The final result is a combination of different approaches, reflecting the work of individual efforts into the resulting outcome.
+
