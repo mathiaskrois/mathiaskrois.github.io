@@ -108,7 +108,7 @@ To quantify these overlaps, we calculate a Pearson correlation coefficient based
 ## Conclusion
 **Conclusion**
 
-This analysis indicates that drug-related crimes in San Francisco have declined notably since 2003, reflecting shifts in policing strategy, social policy, and economic forces. While the overall frequency of drug offenses has fallen, our heatmap and correlation analysis underscore that drug incidents still overlap with specific crime types—most notably WEAPON LAWS and ASSAULT—in both space and time. These results suggest that targeted measures in neighborhoods with high co-occurrence, coupled with broader social support measures, could more effectively address the intertwined challenges of drug abuse and associated criminal activity.
+This analysis indicates that drug-related crimes in San Francisco have declined notably since 2003, reflecting shifts in policing strategy, social policy, and economic forces. While the overall frequency of drug offenses has fallen, our heatmap and correlation analysis underscore that drug incidents still overlap with specific crime types, most notably WEAPON LAWS and ASSAULT, in both space and time. These results suggest that targeted measures in neighborhoods with high co-occurrence, coupled with broader social support measures, could more effectively address the intertwined challenges of drug abuse and associated criminal activity.
 
 ## References
 - [Website Repository](https://github.com/mathiaskrois/mathiaskrois.github.io)
